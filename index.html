@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/speech-commands"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Speech Recognition With TensorFlow.js</h1>
+      <div class="input">
+        <ol>
+          <li><b>Input</b> a word or phrase below</li>
+          <li><b>Open</b> the developer console</li>
+          <li>
+            Press <b>start</b> listening and follow the instructions in the
+            console
+          </li>
+        </ol>
+        <input
+          id="word"
+          type="text"
+          name="word"
+          placeholder="Enter a word or phrase"
+        />
+        <button id="go">Start Listening</button>
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
